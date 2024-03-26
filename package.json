@@ -1,8 +1,11 @@
 {
   "devDependencies": {
+    "cssnano": "^6.1.2",
+    "postcss": "^8.4.38",
     "sass": "^1.72.0"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   }
 }
